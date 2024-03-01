@@ -305,7 +305,67 @@ body {
   color: #066ab2;
 }
 
-.testimonial {
+.box-testimonial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12rem;
+  position: relative;
+  background-color: #066ab2;
+  padding: 4rem 8rem;
+  border-radius: 5px;
+}
+
+.testimonial-picture {
+  height: 30rem;
+  margin-left: 5rem;
+  border-radius: 5px;
+  transform: scale(1.5);
+}
+
+.testimonial-content {
+  font-size: 1.6rem;
+  line-height: 2;
+  color: #fff;
+}
+.testimonial-author {
+  font-size: 1.4rem;
+  line-height: 2;
+  color: #fff;
+}
+
+.circle-btn {
+  height: 4rem;
+  width: 4rem;
+  border: none;
+  position: absolute;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.btn-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+
+  stroke: #e90910;
+}
+
+.btn-left {
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-right {
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+
+/* .testimonial {
   display: flex;
 }
 
@@ -319,18 +379,18 @@ body {
   align-items: stretch;
   font-size: 1.6rem;
   line-height: 1.6;
-}
+} */
 
 .testimonial-stars {
   display: flex;
   padding: 2.2rem;
 }
 
-.testimonial-name {
+/* .testimonial-name {
   font-size: 1.6rem;
   padding: 0.8rem;
   color: #066ab2;
-}
+} */
 
 /* CTA SECTION */
 
