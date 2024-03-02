@@ -392,6 +392,25 @@ body {
   color: #066ab2;
 } */
 
+.dots {
+  position: absolute;
+  left: 50%;
+  top: 105%;
+  transform: translate(-50%, 0);
+}
+.dot {
+  height: 1.4rem;
+  width: 1.4rem;
+  border-radius: 50%;
+  border: 2px solid #e90910;
+  cursor: pointer;
+  margin: 0 1rem;
+}
+
+.selected {
+  background-color: #e90910;
+}
+
 /* CTA SECTION */
 
 #section-cta {
