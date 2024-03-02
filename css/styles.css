@@ -421,6 +421,7 @@ body {
   display: grid;
   grid-template-columns: 2fr 1fr;
   background-color: #066ab2;
+  border-radius: 5px;
 }
 .cta-text-box {
   padding: 4.8rem 6.4rem 6.4rem 6.4rem;
@@ -480,6 +481,8 @@ body {
   background-image: url("../images/technician.jpg");
   background-size: cover;
   background-position: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .btn--form {
