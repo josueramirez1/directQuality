@@ -9,6 +9,7 @@ const sticky = new IntersectionObserver(
     const ent = entries[0];
     if (!ent.isIntersecting) {
       document.body.classList.add("sticky");
+      header.classList.remove("nav-open");
     }
 
     if (ent.isIntersecting) {
@@ -44,7 +45,7 @@ const navBtn = document.querySelector(".btn-mobile-nav");
 
 navBtn.addEventListener("click", (e) => {
   if (!navBtn) return;
-  header.classList.add("nav-open");
+  header.classList.toggle("nav-open");
   navLinks.addEventListener("click", (e) => {
     header.classList.remove("nav-open");
   });
